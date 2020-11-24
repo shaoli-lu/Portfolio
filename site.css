@@ -3,6 +3,21 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+img {
+  height: 48px;
+  margin: 0.8px 0;
+ 
+}
+
+/* move */
+.hover img {
+  margin-left: 4px;
+  transition: .3s ease-in-out;
+}
+.hover img:hover {
+  margin-left: 0;
+}
+
 .header {
   padding: 0 45px;
   background-color: green;
